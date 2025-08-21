@@ -1,0 +1,120 @@
+/* Page background */
+body {
+  background-image: url("/src/assets/img3.jpg"); 
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Main content container */
+.right-content {
+  padding: 40px;
+  color: white;
+}
+
+/* Header */
+.boxHead {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Dashboard container */
+.dash-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+/* Transparent dashboard boxes */
+.dash-box {
+  background: rgba(255, 255, 255, 0.1);       /* semi-transparent background */
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);   /* deep black shadow */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid black;                    /* black border */
+  padding: 25px;
+  width: 250px;
+  text-align: center;
+  color: white;
+  margin: 15px;
+}
+
+
+
+/* Attendant table container */
+/* Add to center the attendant-table */
+.attendant-table {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  color: white;
+  width: 90%;                      
+  max-width: 1000px;              
+  margin: 0 auto;                 
+}
+
+/* Optional: Center heading above table */
+.attendant-table h2 {
+  text-align: center;
+}
+
+/* Blur box style for dashboard and table */
+.blur-box {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  color: #f9f7f7;
+}
+
+/* Table styling inside blur-box */
+.blur-box table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.blur-box th,
+.blur-box td {
+  padding: 10px;
+  text-align: left;
+  color: #f2e8e8;
+}
+
+.blur-box thead {
+  background-color: rgba(255, 255, 255, 0.3);
+  font-weight: bold;
+}
+
+.blur-box tbody tr:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: rgba(255, 255, 255, 0.2);
+}

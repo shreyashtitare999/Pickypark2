@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    min-height: 100hv;
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('./assets/img3.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+}
+.navbar{
+padding-left: 10%;
+padding-right: 10%;
+}
+

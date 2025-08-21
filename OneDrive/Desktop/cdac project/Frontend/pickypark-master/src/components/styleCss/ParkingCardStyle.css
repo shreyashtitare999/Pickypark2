@@ -1,0 +1,449 @@
+body {
+    width: 100%;
+    min-height: 100hv;
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('/src/assets/img3.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.search-container h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333; 
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 30px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+ 
+.btn1 {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #f9d423;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.btn1:hover {
+    background-color: #66ff66;
+}
+
+
+.parking-results {
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+}
+.search-container {
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  color: white;
+}
+
+
+/* Heading */
+.search-container h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: white; 
+}
+
+
+
+
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 30px;
+}
+
+
+.search-bar input {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+
+.search-container button {
+  background-color: #f9d423; 
+  color: black;
+  font-weight: bold;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.search-container button:focus {
+  background-color: #7abf2b; 
+  outline: none;
+}
+
+
+.parking-results {
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+}
+/* Main container */
+.reserve-container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: transparent; /* Transparent background */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* subtle white border */
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.1);
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Heading */
+.reserve-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #ffffff;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+.reservation-summary {
+  margin-top: 30px;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.booking-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.booking-container h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: white;
+}
+.booking-container h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: white; /* ← this sets the text color to white */
+}
+
+.booking-container label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.booking-container input[type="text"] {
+  background-color: white !important;
+  color: black;
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  outline: none;
+}
+.booking-container input::placeholder {
+  color: black;
+}
+.booking-container button {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  background-color: #f7ff00;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.booking-container button:hover {
+  background-color: #0ba110;
+}
+
+.glass-box {
+  background: rgba(255, 255, 255, 0.1); /* light transparent */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.booking-container.glass-box {
+  width: 500px;
+  margin: 120px auto 50px auto; /* Push down to avoid navbar */
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  color: #000;
+  text-align: center;
+}
+
+input::placeholder {
+  color: white;
+  opacity: 1;
+  font-weight: 500;
+  font-size: 14px;
+}
+body {
+  background-image: url("/src/assets/img3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* Wrapper to avoid overlap with navbar */
+.reserve-wrapper {
+  padding-top: 80px; /* Adjust based on navbar height */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Transparent glass container */
+.reserve-container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 40px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+/* Title */
+.reserve-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 2rem;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: white; /* white input background */
+  color: black;             /* black input text */
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-group input::placeholder {
+  color: #666; /* optional: grey placeholder */
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Form groups */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: white;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff; /* White input background */
+  color: #000; /* Black text */
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Button */
+.reserve-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.reserve-btn:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.reserve-container button {
+  background-color: yellow;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reserve-container button:hover {
+  background-color: green;
+  color: white;
+}
+
+
+.form-group {
+  margin-top: 20px;
+}
+
+/* Labels */
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* Inputs and select */
+.form-group input {
+  padding: 10px;
+  width: 70%;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: none;
+}
+.form-group select {
+  background-color: rgb(241, 236, 236);
+  color: rgb(240, 236, 236);
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-group option {
+  background-color: rgb(245, 231, 231);
+  color: rgb(5, 5, 5);
+}
+
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #00bfff;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Total Price display */
+.form-group p {
+  font-size: 20px;
+  color: #00ffcc;
+  margin-top: 5px;
+}
+.form-group button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #b1db34;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button {
+  background-color: yellow;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: green;
+  color: white;
+}
